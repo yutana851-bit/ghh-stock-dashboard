@@ -1,0 +1,1445 @@
+{
+  "asOf": "2026-11-16",
+  "items": [
+    {
+      "branch": "KKN",
+      "sku": "GH-CEM-1001",
+      "onHand": 0,
+      "reorderPoint": 44,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 23.6
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-CEM-1002",
+      "onHand": 156,
+      "reorderPoint": 45,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 9.27
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-CEM-1003",
+      "onHand": 122,
+      "reorderPoint": 50,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 11.73
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-CEM-1004",
+      "onHand": 115,
+      "reorderPoint": 43,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 10
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-CEM-1005",
+      "onHand": 0,
+      "reorderPoint": 85,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 18
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-CEM-1006",
+      "onHand": 367,
+      "reorderPoint": 134,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 29.97
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ROF-1001",
+      "onHand": 112,
+      "reorderPoint": 54,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 4.03
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ROF-1002",
+      "onHand": 20,
+      "reorderPoint": 26,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 2.33
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ROF-1003",
+      "onHand": 48,
+      "reorderPoint": 19,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 2.13
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ROF-1004",
+      "onHand": 151,
+      "reorderPoint": 59,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 5.43
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ROF-1005",
+      "onHand": 176,
+      "reorderPoint": 56,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 5.7
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ROF-1006",
+      "onHand": 72,
+      "reorderPoint": 31,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 2.4
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PLB-1001",
+      "onHand": 59,
+      "reorderPoint": 79,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 12
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PLB-1002",
+      "onHand": 131,
+      "reorderPoint": 166,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 26.97
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PLB-1003",
+      "onHand": 70,
+      "reorderPoint": 28,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 4.67
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PLB-1004",
+      "onHand": 156,
+      "reorderPoint": 49,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 7.57
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PLB-1005",
+      "onHand": 32,
+      "reorderPoint": 16,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 2.1
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PLB-1006",
+      "onHand": 59,
+      "reorderPoint": 90,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 14.97
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ELC-1001",
+      "onHand": 40,
+      "reorderPoint": 15,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 2.07
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ELC-1002",
+      "onHand": 121,
+      "reorderPoint": 68,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 10.37
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ELC-1003",
+      "onHand": 21,
+      "reorderPoint": 33,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 5.13
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ELC-1004",
+      "onHand": 0,
+      "reorderPoint": 136,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 19.47
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ELC-1005",
+      "onHand": 340,
+      "reorderPoint": 126,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 20.37
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-ELC-1006",
+      "onHand": 43,
+      "reorderPoint": 24,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 3.8
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PNT-1001",
+      "onHand": 8,
+      "reorderPoint": 14,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 3.13
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PNT-1002",
+      "onHand": 31,
+      "reorderPoint": 14,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 2.9
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PNT-1003",
+      "onHand": 25,
+      "reorderPoint": 12,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 2.67
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PNT-1004",
+      "onHand": 46,
+      "reorderPoint": 23,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 4.67
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PNT-1005",
+      "onHand": 220,
+      "reorderPoint": 81,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 15.9
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-PNT-1006",
+      "onHand": 0,
+      "reorderPoint": 29,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 5.17
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TIL-1001",
+      "onHand": 59,
+      "reorderPoint": 28,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 3.6
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TIL-1002",
+      "onHand": 58,
+      "reorderPoint": 34,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 4.27
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TIL-1003",
+      "onHand": 53,
+      "reorderPoint": 37,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 4.83
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TIL-1004",
+      "onHand": 129,
+      "reorderPoint": 88,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 10.1
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TIL-1005",
+      "onHand": 59,
+      "reorderPoint": 34,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 4.37
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TIL-1006",
+      "onHand": 179,
+      "reorderPoint": 86,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 11.1
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TLS-1001",
+      "onHand": 25,
+      "reorderPoint": 10,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 1.3
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TLS-1002",
+      "onHand": 42,
+      "reorderPoint": 22,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 3
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TLS-1003",
+      "onHand": 75,
+      "reorderPoint": 34,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 4.9
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TLS-1004",
+      "onHand": 47,
+      "reorderPoint": 25,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 3.23
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TLS-1005",
+      "onHand": 24,
+      "reorderPoint": 33,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 4.1
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-TLS-1006",
+      "onHand": 138,
+      "reorderPoint": 46,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 5.97
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-GRD-1001",
+      "onHand": 16,
+      "reorderPoint": 31,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 5.37
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-GRD-1002",
+      "onHand": 118,
+      "reorderPoint": 57,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 9.63
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-GRD-1003",
+      "onHand": 149,
+      "reorderPoint": 47,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 7.63
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-GRD-1004",
+      "onHand": 136,
+      "reorderPoint": 69,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 12.23
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-GRD-1005",
+      "onHand": 141,
+      "reorderPoint": 42,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 7.07
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-GRD-1006",
+      "onHand": 881,
+      "reorderPoint": 37,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 6.37
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DEC-1001",
+      "onHand": 26,
+      "reorderPoint": 16,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 1.73
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DEC-1002",
+      "onHand": 37,
+      "reorderPoint": 22,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 2.23
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DEC-1003",
+      "onHand": 210,
+      "reorderPoint": 15,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 1.4
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DEC-1004",
+      "onHand": 583,
+      "reorderPoint": 50,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 5.57
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DEC-1005",
+      "onHand": 47,
+      "reorderPoint": 28,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 2.6
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DEC-1006",
+      "onHand": 292,
+      "reorderPoint": 24,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 2.33
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DRW-1001",
+      "onHand": 8,
+      "reorderPoint": 6,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 0.43
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DRW-1002",
+      "onHand": 15,
+      "reorderPoint": 8,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 0.6
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DRW-1003",
+      "onHand": 35,
+      "reorderPoint": 19,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 1.4
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DRW-1004",
+      "onHand": 63,
+      "reorderPoint": 48,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 3.8
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DRW-1005",
+      "onHand": 93,
+      "reorderPoint": 60,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 4.83
+    },
+    {
+      "branch": "KKN",
+      "sku": "GH-DRW-1006",
+      "onHand": 39,
+      "reorderPoint": 20,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 1.33
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-CEM-1001",
+      "onHand": 152,
+      "reorderPoint": 31,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 7.53
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-CEM-1002",
+      "onHand": 86,
+      "reorderPoint": 32,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 7.17
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-CEM-1003",
+      "onHand": 155,
+      "reorderPoint": 35,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 7.73
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-CEM-1004",
+      "onHand": 119,
+      "reorderPoint": 30,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 8.4
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-CEM-1005",
+      "onHand": 31,
+      "reorderPoint": 60,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 14.37
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-CEM-1006",
+      "onHand": 350,
+      "reorderPoint": 94,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 20.97
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ROF-1001",
+      "onHand": 70,
+      "reorderPoint": 38,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 3.57
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ROF-1002",
+      "onHand": 35,
+      "reorderPoint": 18,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 1.67
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ROF-1003",
+      "onHand": 22,
+      "reorderPoint": 13,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 1.47
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ROF-1004",
+      "onHand": 82,
+      "reorderPoint": 41,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 3.83
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ROF-1005",
+      "onHand": 96,
+      "reorderPoint": 39,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 3.6
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ROF-1006",
+      "onHand": 41,
+      "reorderPoint": 22,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 1.73
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PLB-1001",
+      "onHand": 183,
+      "reorderPoint": 55,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 8.77
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PLB-1002",
+      "onHand": 293,
+      "reorderPoint": 116,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 19.7
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PLB-1003",
+      "onHand": 43,
+      "reorderPoint": 20,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 3.4
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PLB-1004",
+      "onHand": 109,
+      "reorderPoint": 34,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 5.63
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PLB-1005",
+      "onHand": 38,
+      "reorderPoint": 11,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 1.37
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PLB-1006",
+      "onHand": 168,
+      "reorderPoint": 63,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 9.43
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ELC-1001",
+      "onHand": 40,
+      "reorderPoint": 11,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 1.97
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ELC-1002",
+      "onHand": 120,
+      "reorderPoint": 48,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 6.77
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ELC-1003",
+      "onHand": 39,
+      "reorderPoint": 23,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 3.73
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ELC-1004",
+      "onHand": 268,
+      "reorderPoint": 96,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 15.37
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ELC-1005",
+      "onHand": 217,
+      "reorderPoint": 89,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 15.4
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-ELC-1006",
+      "onHand": 54,
+      "reorderPoint": 17,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 2.73
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PNT-1001",
+      "onHand": 35,
+      "reorderPoint": 10,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 1.73
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PNT-1002",
+      "onHand": 6,
+      "reorderPoint": 10,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 2.07
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PNT-1003",
+      "onHand": 3,
+      "reorderPoint": 8,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 1.33
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PNT-1004",
+      "onHand": 65,
+      "reorderPoint": 17,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 3.47
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PNT-1005",
+      "onHand": 110,
+      "reorderPoint": 57,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 11.7
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-PNT-1006",
+      "onHand": 51,
+      "reorderPoint": 21,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 4.1
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TIL-1001",
+      "onHand": 30,
+      "reorderPoint": 19,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 1.67
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TIL-1002",
+      "onHand": 37,
+      "reorderPoint": 24,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 3.07
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TIL-1003",
+      "onHand": 44,
+      "reorderPoint": 26,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 3.5
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TIL-1004",
+      "onHand": 112,
+      "reorderPoint": 62,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 7.63
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TIL-1005",
+      "onHand": 39,
+      "reorderPoint": 24,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 2.9
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TIL-1006",
+      "onHand": 159,
+      "reorderPoint": 60,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 7.1
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TLS-1001",
+      "onHand": 17,
+      "reorderPoint": 7,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 0.87
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TLS-1002",
+      "onHand": 40,
+      "reorderPoint": 16,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 2.2
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TLS-1003",
+      "onHand": 47,
+      "reorderPoint": 24,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 3.7
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TLS-1004",
+      "onHand": 32,
+      "reorderPoint": 18,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 2.83
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TLS-1005",
+      "onHand": 46,
+      "reorderPoint": 23,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 3.33
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-TLS-1006",
+      "onHand": 101,
+      "reorderPoint": 32,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 4.27
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-GRD-1001",
+      "onHand": 75,
+      "reorderPoint": 22,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 3.6
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-GRD-1002",
+      "onHand": 28,
+      "reorderPoint": 40,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 6.33
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-GRD-1003",
+      "onHand": 63,
+      "reorderPoint": 33,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 6.27
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-GRD-1004",
+      "onHand": 186,
+      "reorderPoint": 49,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 7.93
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-GRD-1005",
+      "onHand": 84,
+      "reorderPoint": 30,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 4.97
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-GRD-1006",
+      "onHand": 90,
+      "reorderPoint": 26,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 4.2
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DEC-1001",
+      "onHand": 21,
+      "reorderPoint": 12,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 1.07
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DEC-1002",
+      "onHand": 24,
+      "reorderPoint": 15,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 1.73
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DEC-1003",
+      "onHand": 22,
+      "reorderPoint": 10,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 1.07
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DEC-1004",
+      "onHand": 93,
+      "reorderPoint": 35,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 3.27
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DEC-1005",
+      "onHand": 47,
+      "reorderPoint": 20,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 2.13
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DEC-1006",
+      "onHand": 39,
+      "reorderPoint": 17,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 1.83
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DRW-1001",
+      "onHand": 7,
+      "reorderPoint": 4,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 0.17
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DRW-1002",
+      "onHand": 10,
+      "reorderPoint": 6,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 0.57
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DRW-1003",
+      "onHand": 8,
+      "reorderPoint": 13,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 0.93
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DRW-1004",
+      "onHand": 63,
+      "reorderPoint": 34,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 2.17
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DRW-1005",
+      "onHand": 73,
+      "reorderPoint": 42,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 3
+    },
+    {
+      "branch": "ROE",
+      "sku": "GH-DRW-1006",
+      "onHand": 30,
+      "reorderPoint": 14,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 1.4
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-CEM-1001",
+      "onHand": 27,
+      "reorderPoint": 38,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 8.5
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-CEM-1002",
+      "onHand": 154,
+      "reorderPoint": 38,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 8.07
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-CEM-1003",
+      "onHand": 101,
+      "reorderPoint": 42,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 9.4
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-CEM-1004",
+      "onHand": 150,
+      "reorderPoint": 36,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 8.27
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-CEM-1005",
+      "onHand": 213,
+      "reorderPoint": 72,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 18.63
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-CEM-1006",
+      "onHand": 361,
+      "reorderPoint": 114,
+      "leadTimeDays": 3,
+      "avgDailySales30d": 25.33
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ROF-1001",
+      "onHand": 114,
+      "reorderPoint": 46,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 4.83
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ROF-1002",
+      "onHand": 57,
+      "reorderPoint": 22,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 1.83
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ROF-1003",
+      "onHand": 33,
+      "reorderPoint": 16,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 0.9
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ROF-1004",
+      "onHand": 148,
+      "reorderPoint": 50,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 4.9
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ROF-1005",
+      "onHand": 148,
+      "reorderPoint": 48,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 3.8
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ROF-1006",
+      "onHand": 45,
+      "reorderPoint": 26,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 2.4
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PLB-1001",
+      "onHand": 144,
+      "reorderPoint": 67,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 11.83
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PLB-1002",
+      "onHand": 342,
+      "reorderPoint": 141,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 24.17
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PLB-1003",
+      "onHand": 66,
+      "reorderPoint": 24,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 4
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PLB-1004",
+      "onHand": 19,
+      "reorderPoint": 42,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 6.3
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PLB-1005",
+      "onHand": 37,
+      "reorderPoint": 13,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 1.73
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PLB-1006",
+      "onHand": 28,
+      "reorderPoint": 76,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 12.3
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ELC-1001",
+      "onHand": 43,
+      "reorderPoint": 13,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 2.43
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ELC-1002",
+      "onHand": 157,
+      "reorderPoint": 58,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 9.63
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ELC-1003",
+      "onHand": 85,
+      "reorderPoint": 28,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 4.83
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ELC-1004",
+      "onHand": 224,
+      "reorderPoint": 116,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 20.07
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ELC-1005",
+      "onHand": 204,
+      "reorderPoint": 108,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 18.33
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-ELC-1006",
+      "onHand": 12,
+      "reorderPoint": 21,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 3.43
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PNT-1001",
+      "onHand": 5,
+      "reorderPoint": 12,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 2.57
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PNT-1002",
+      "onHand": 48,
+      "reorderPoint": 12,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 2.6
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PNT-1003",
+      "onHand": 25,
+      "reorderPoint": 10,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 1.87
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PNT-1004",
+      "onHand": 45,
+      "reorderPoint": 20,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 4.27
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PNT-1005",
+      "onHand": 162,
+      "reorderPoint": 69,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 12.83
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-PNT-1006",
+      "onHand": 76,
+      "reorderPoint": 25,
+      "leadTimeDays": 4,
+      "avgDailySales30d": 5
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TIL-1001",
+      "onHand": 14,
+      "reorderPoint": 23,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 3.27
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TIL-1002",
+      "onHand": 47,
+      "reorderPoint": 29,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 4.07
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TIL-1003",
+      "onHand": 84,
+      "reorderPoint": 32,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 3.93
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TIL-1004",
+      "onHand": 50,
+      "reorderPoint": 75,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 9.5
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TIL-1005",
+      "onHand": 15,
+      "reorderPoint": 29,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 3.8
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TIL-1006",
+      "onHand": 107,
+      "reorderPoint": 73,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 9.03
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TLS-1001",
+      "onHand": 15,
+      "reorderPoint": 8,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 1.2
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TLS-1002",
+      "onHand": 59,
+      "reorderPoint": 19,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 2.97
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TLS-1003",
+      "onHand": 74,
+      "reorderPoint": 29,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 4.7
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TLS-1004",
+      "onHand": 58,
+      "reorderPoint": 22,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 2.93
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TLS-1005",
+      "onHand": 62,
+      "reorderPoint": 28,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 4.3
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-TLS-1006",
+      "onHand": 111,
+      "reorderPoint": 39,
+      "leadTimeDays": 7,
+      "avgDailySales30d": 5.37
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-GRD-1001",
+      "onHand": 100,
+      "reorderPoint": 27,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 4.53
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-GRD-1002",
+      "onHand": 118,
+      "reorderPoint": 48,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 8.4
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-GRD-1003",
+      "onHand": 118,
+      "reorderPoint": 40,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 6.77
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-GRD-1004",
+      "onHand": 124,
+      "reorderPoint": 59,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 9.77
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-GRD-1005",
+      "onHand": 122,
+      "reorderPoint": 36,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 5.47
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-GRD-1006",
+      "onHand": 86,
+      "reorderPoint": 31,
+      "leadTimeDays": 5,
+      "avgDailySales30d": 4.83
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DEC-1001",
+      "onHand": 27,
+      "reorderPoint": 14,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 1.2
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DEC-1002",
+      "onHand": 39,
+      "reorderPoint": 19,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 2.27
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DEC-1003",
+      "onHand": 27,
+      "reorderPoint": 13,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 1.03
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DEC-1004",
+      "onHand": 98,
+      "reorderPoint": 43,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 4.97
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DEC-1005",
+      "onHand": 62,
+      "reorderPoint": 24,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 2.07
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DEC-1006",
+      "onHand": 49,
+      "reorderPoint": 20,
+      "leadTimeDays": 10,
+      "avgDailySales30d": 1.87
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DRW-1001",
+      "onHand": 8,
+      "reorderPoint": 5,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 0.3
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DRW-1002",
+      "onHand": 12,
+      "reorderPoint": 7,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 0.57
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DRW-1003",
+      "onHand": 35,
+      "reorderPoint": 16,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 1.1
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DRW-1004",
+      "onHand": 90,
+      "reorderPoint": 41,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 2.6
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DRW-1005",
+      "onHand": 104,
+      "reorderPoint": 51,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 3.3
+    },
+    {
+      "branch": "UDN",
+      "sku": "GH-DRW-1006",
+      "onHand": 33,
+      "reorderPoint": 17,
+      "leadTimeDays": 14,
+      "avgDailySales30d": 1.53
+    }
+  ]
+}

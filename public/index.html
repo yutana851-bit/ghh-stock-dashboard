@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Branch stock dashboard</title>
+  <style>
+    :root { --ink:#1b2430; --muted:#5d6978; --line:#d9dee5; --bg:#f6f7f9; --card:#fff; --red:#c8102e; --amber:#b86e00; --green:#1c7a46; --blue:#1f4e8c; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:15px/1.5 system-ui, "Noto Sans Thai", sans-serif; color:var(--ink); background:var(--bg); }
+    header { background:var(--ink); color:#fff; padding:14px 24px; display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
+    header h1 { font-size:18px; margin:0; font-weight:700; }
+    header .asof { margin-left:auto; color:#b9c3d0; font-size:13px; }
+    select, input { font:inherit; padding:7px 10px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); }
+    main { max-width:1100px; margin:0 auto; padding:20px 24px 48px; }
+    .tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:20px; }
+    .tile { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:12px 14px; }
+    .tile b { display:block; font-size:26px; line-height:1.1; }
+    .tile span { color:var(--muted); font-size:13px; }
+    .tile.out b { color:var(--red); } .tile.low b { color:var(--amber); } .tile.over b { color:var(--blue); }
+    .bar { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-bottom:12px; }
+    .chip { border:1px solid var(--line); background:#fff; padding:5px 12px; border-radius:999px; cursor:pointer; font:inherit; }
+    .chip[aria-pressed="true"] { background:var(--ink); color:#fff; border-color:var(--ink); }
+    table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+    th { background:#eef1f5; font-size:13px; color:var(--muted); }
+    td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+    .badge { display:inline-block; padding:1px 8px; border-radius:999px; font-size:12px; font-weight:600; }
+    .badge.out { background:#fde7ea; color:var(--red); } .badge.low { background:#fff1d9; color:var(--amber); }
+    .badge.ok { background:#e3f4ea; color:var(--green); } .badge.over { background:#e3ecf8; color:var(--blue); }
+    .sku { font-family:ui-monospace, Menlo, monospace; font-size:12.5px; color:var(--muted); }
+    .th { color:var(--muted); font-size:13px; }
+    h2 { font-size:17px; margin:28px 0 8px; }
+    .empty { padding:20px; text-align:center; color:var(--muted); }
+    .err { background:#fde7ea; color:var(--red); padding:10px 14px; border-radius:6px; margin-bottom:12px; }
+    button.primary { font:inherit; padding:7px 14px; border-radius:6px; border:0; background:var(--blue); color:#fff; cursor:pointer; }
+    :focus-visible { outline:3px solid #f5a623; outline-offset:2px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Branch stock dashboard</h1>
+    <label>Branch <select id="branch"></select></label>
+    <span class="asof" id="asof"></span>
+  </header>
+  <main>
+    <div id="error" class="err" hidden></div>
+    <section class="tiles" id="tiles" aria-label="Stock summary"></section>
+
+    <div class="bar">
+      <div id="chips" role="group" aria-label="Filter by status"></div>
+      <input id="q" type="search" placeholder="Search SKU or product name (EN/TH)" aria-label="Search products" size="34">
+    </div>
+    <table>
+      <thead><tr><th>Product</th><th>Status</th><th class="num">On hand</th><th class="num">Reorder at</th><th class="num">Days of cover</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+
+    <h2>Reorder suggestions</h2>
+    <div class="bar"><button class="primary" id="reorderBtn">Suggest reorder</button><span class="th" id="reorderTotal"></span></div>
+    <table id="reorderTable" hidden>
+      <thead><tr><th>Product</th><th class="num">On hand</th><th class="num">Order qty</th><th class="num">Est. cost</th></tr></thead>
+      <tbody id="reorderRows"></tbody>
+    </table>
+  </main>
+
+<script>
+  const $ = (id) => document.getElementById(id);
+  const baht = (n) => '฿' + Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const STATUSES = [['', 'All'], ['out', 'Sold out'], ['low', 'Low'], ['over', 'Overstock'], ['ok', 'OK']];
+  const LABEL = { out: 'Sold out', low: 'Low', over: 'Overstock', ok: 'OK' };
+  let status = '';
+
+  async function api(path) {
+    const res = await fetch(path);
+    const body = await res.json();
+    if (!res.ok) throw new Error(body.error || res.statusText);
+    return body;
+  }
+  function showError(e) { $('error').hidden = !e; $('error').textContent = e ? e.message : ''; }
+
+  async function loadTiles() {
+    const s = await api('/api/stock/summary?branch=' + $('branch').value);
+    $('asof').textContent = 'Data as of ' + s.asOf;
+    const t = (cls, n, label) => `<div class="tile ${cls}"><b>${n}</b><span>${label}</span></div>`;
+    $('tiles').innerHTML = t('', s.skus, 'Products') + t('out', s.out, 'Sold out') + t('low', s.low, 'Low stock') + t('over', s.over, 'Overstock') + t('', baht(s.stockValueAtCost), 'Stock value at cost');
+  }
+  async function loadRows() {
+    const params = new URLSearchParams({ branch: $('branch').value });
+    if (status) params.set('status', status);
+    if ($('q').value.trim()) params.set('q', $('q').value.trim());
+    const d = await api('/api/stock?' + params);
+    $('rows').innerHTML = d.items.length
+      ? d.items.map((r) => `<tr>
+          <td>${esc(r.nameEn)}<div class="th">${esc(r.nameTh)}</div><div class="sku">${esc(r.sku)}</div></td>
+          <td><span class="badge ${r.status}">${LABEL[r.status]}</span></td>
+          <td class="num">${r.onHand}</td><td class="num">${r.reorderPoint}</td>
+          <td class="num">${r.daysOfCover ?? '–'}</td></tr>`).join('')
+      : '<tr><td colspan="5" class="empty">No products match. Clear the search or pick another status.</td></tr>';
+  }
+  async function loadReorder() {
+    const d = await api('/api/reorder?branch=' + $('branch').value);
+    $('reorderTable').hidden = false;
+    $('reorderTotal').textContent = d.items.length + ' items, estimated ' + baht(d.totalEstimatedCost);
+    $('reorderRows').innerHTML = d.items.map((r) => `<tr><td>${esc(r.nameEn)}<div class="sku">${esc(r.sku)}</div></td><td class="num">${r.onHand}</td><td class="num">${r.suggestedQty} ${esc(r.unit)}</td><td class="num">${baht(r.estCost)}</td></tr>`).join('');
+  }
+  async function refresh() {
+    try { showError(null); await Promise.all([loadTiles(), loadRows()]); $('reorderTable').hidden = true; $('reorderTotal').textContent = ''; }
+    catch (e) { showError(e); }
+  }
+
+  (async function init() {
+    try {
+      const branches = await api('/api/branches');
+      $('branch').innerHTML = branches.map((b) => `<option value="${b.code}">${esc(b.name)}</option>`).join('');
+      $('chips').innerHTML = STATUSES.map(([v, l]) => `<button class="chip" data-v="${v}" aria-pressed="${v === ''}">${l}</button>`).join(' ');
+      $('chips').addEventListener('click', (e) => {
+        const b = e.target.closest('.chip'); if (!b) return;
+        status = b.dataset.v;
+        for (const c of $('chips').children) c.setAttribute('aria-pressed', String(c.dataset.v === status));
+        loadRows().catch(showError);
+      });
+      let t; $('q').addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => loadRows().catch(showError), 200); });
+      $('branch').addEventListener('change', refresh);
+      $('reorderBtn').addEventListener('click', () => loadReorder().catch(showError));
+      await refresh();
+    } catch (e) { showError(e); }
+  })();
+</script>
+</body>
+</html>
